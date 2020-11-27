@@ -6,7 +6,7 @@
 			</a>
 		</div>
 	{{ end }}
-	<h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+	<p class="site-title">{{ .Site.Title }}</p>
 	<div class="site-description">
 		{{- if isset .Site.Params "subtitle" -}}
 		<p>{{ .Site.Params.Subtitle | markdownify }}</p>
@@ -16,11 +16,12 @@
 				{{- range $index, $key := .Site.Params.Social -}}
 					<li><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></li>
 				{{- end -}}
+				{{- if or (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") -}}
+          <li><span class="scheme-toggle"><a href="#" id="scheme-toggle"></a></span></li>
+        {{- end -}}
 			</ul>
 		</nav>
-                {{- if or (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") -}}
-                <span class="scheme-toggle"><a href="#" id="scheme-toggle"></a>
-                {{- end -}}
+
 	</div>
 
 	<nav class="nav">
@@ -33,3 +34,4 @@
 		</ul>
 	</nav>
 </div>
+
