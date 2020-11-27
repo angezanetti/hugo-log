@@ -46,4 +46,7 @@
 	{{- if isset .Site.Params "customjs" -}}
 		{{- range .Site.Params.customJS }}<script src="{{ $.Site.BaseURL }}{{ . }}"></script>{{- end }}
 	{{- end }}
+	{{- if isset .Site.Params "plausible" -}}
+    <script async defer data-domain="{{ .Site.Params.plausible }}" src="https://plausible.io/js/plausible.js"></script>
+	{{- end }}
 </head>
