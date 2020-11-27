@@ -8,7 +8,7 @@ Minimal website and blog theme Hugo. Forked from [ink](https://github.com/knadh/
 
 ## Features
 
-- Google Analytics integration
+- Google & Plausible Analytics integration
 - SEO optimization
 - Syntax highlighting
 - Twitter cards and opengraph tags support
