@@ -490,3 +490,12 @@ ul {
     width: 100%;
   }
 }
+@media (max-width: 475px) {
+  .header .avatar {
+    float: initial;
+    margin: 0;
+  }
+  .header .site-title {
+    margin-top: 1em;
+  }
+}

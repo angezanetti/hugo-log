@@ -4,7 +4,7 @@ Minimal website and blog theme Hugo. Forked from [ink](https://github.com/knadh/
 
 ## Demo
 
-![Screenshot](https://www.dropbox.com/s/izst24s2v01dtpy/Screen%20Shot%20Github%20HugoLog.png?raw=1)
+![Screenshot](https://www.dropbox.com/s/izst24s2v01dtpy/Screen%20Shot%20Github%20HugoLog2.png?raw=1)
 
 ## Features
 
