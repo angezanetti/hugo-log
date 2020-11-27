@@ -6,13 +6,13 @@ html.dark body {
 html.dark ::-moz-selection {
   background: #9375fd;
   color: #fff;
-  text-shadow: none
+  text-shadow: none;
 }
 
 html.dark ::selection {
   background: #9375fd;
   color: #fff;
-  text-shadow: none
+  text-shadow: none;
 }
 
 html.dark hr {
@@ -32,7 +32,8 @@ html.dark h6 {
   color: #ddd;
 }
 
-html.dark a,a:hover {
+html.dark a,
+a:hover {
   color: #9375fd;
   text-decoration: none;
 }
@@ -68,4 +69,14 @@ html.dark .footer {
 
 html.dark .highlight {
   background-color: #333;
+}
+a {
+  color: #ea4c4c !important;
+}
+a:hover {
+  border-bottom: none;
+  text-decoration: underline;
+}
+.post .tags a {
+  border: 1px solid #0e2431;
 }
