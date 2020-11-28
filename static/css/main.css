@@ -378,9 +378,6 @@ ul {
   background-color: #f9f2f4;
 }
 
-.tags {
-  margin: 2em 0;
-}
 .post .tags a {
   display: inline-block;
   border: 1px solid #3700ff;
@@ -454,7 +451,8 @@ ul {
     padding: 20px;
   }
 
-  h1 {
+  h1,
+  .header .site-title {
     font-size: 1.8rem;
   }
 
@@ -491,10 +489,6 @@ ul {
   }
 }
 @media (max-width: 475px) {
-  .header .avatar {
-    float: initial;
-    margin: 0;
-  }
   .header .site-title {
     margin-top: 1em;
   }

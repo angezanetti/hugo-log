@@ -23,7 +23,7 @@ cd into your hugo site's root directory and:
 
 ```sh
 cd themes
-git clone https://github.com/angezanetti/hugo-dot.git
+git clone https://github.com/angezanetti/hugo-log.git
 ```
 
 For more information read the [official setup guide](https://gohugo.io/overview/installing/) of Hugo.
