@@ -14,7 +14,7 @@ a {
   word-break: break-word;
 }
 a:hover {
-  border-bottom: 2px solid #3700ff;
+  border-bottom: 2px solid #ea4c4c;
 }
 
 html,
@@ -26,13 +26,13 @@ textarea {
 }
 
 ::-moz-selection {
-  background: #3700ff;
+  background: #ea4c4c;
   text-shadow: none;
   color: #fff;
 }
 
 ::selection {
-  background: #3700ff;
+  background: #ea4c4c;
   text-shadow: none;
   color: #fff;
 }
@@ -112,7 +112,7 @@ blockquote {
   font-size: 1.4rem;
   font-family: Georgia, bitstream charter, serif;
   border-left: 3px solid;
-  border-color: #3700ff;
+  border-color: #ea4c4c;
   padding-left: 20px;
 }
 
@@ -370,7 +370,7 @@ ul {
 }
 
 .post .draft-label {
-  color: #3700ff;
+  color: #ea4c4c;
   text-decoration: none;
   padding: 2px 4px;
   border-radius: 4px;
@@ -380,10 +380,10 @@ ul {
 
 .post .tags a {
   display: inline-block;
-  border: 1px solid #3700ff;
+  border: 1px solid #ea4c4c;
   border-radius: 3px;
   padding: 0px 6px;
-  color: #3700ff;
+  color: #ea4c4c;
   line-height: 20px;
   font-size: 0.85em;
   text-decoration: none;
@@ -407,7 +407,7 @@ ul {
   color: #666;
 }
 .footer a:hover {
-  color: #3700ff;
+  color: #ea4c4c;
 }
 
 .tag-cloud {
