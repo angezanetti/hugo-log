@@ -354,6 +354,9 @@ ul {
   display: block;
   margin-bottom: 20px;
 }
+.recent-posts.section .meta {
+  margin-top: 1em;
+}
 .post-header .meta .date .rest {
   display: block;
   font-size: 0.75em;
