@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Ink"
-theme = "ink"
+title = "Log"
+theme = "hugo-log"
 paginate = 5
 
 copyright = "© Copyright notice"
