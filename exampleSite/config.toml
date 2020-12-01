@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Log"
+description = "Put here your SEO description"
 theme = "hugo-log"
 paginate = 5
 
@@ -21,8 +22,11 @@ disqusShortname = "ink-demo"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
-	
+
 	featherIconsCDN = true
+
+	# plausible analytics
+	plausible = "blog.spreadtheworld.net"
 
 	mode = "auto" # "dark" or "auto"
 	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
