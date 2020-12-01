@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Roboto&display=swap");
+
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #333;
   line-height: 1.8em;
@@ -135,7 +136,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lobster", serif;
+  font-family: "Libre Baskerville", serif;
   color: #333;
   font-weight: 500;
   line-height: 1.3em;
@@ -256,7 +257,7 @@ ul {
   line-height: 0.2em;
   font-weight: 500;
   font-size: 3rem;
-  font-family: "Lobster", serif;
+  font-family: "Libre Baskerville", serif;
 }
 .site-title a {
   color: #333;
@@ -349,7 +350,7 @@ ul {
   text-align: center;
 }
 .post-header .meta .date .day {
-  font-family: "Lobster", serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: 700;
   line-height: 0.45em;
   font-size: 3em;
